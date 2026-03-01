@@ -22,42 +22,52 @@ The dashboard integrates multiple on-chain metrics such as transaction volume, a
 ---
 
 ## 📊 Key Metrics
+## 🎯 Strategic Questions Addressed
+- Is Ethereum network activity growing or declining?
+- Is user adoption broadening or concentrated among large players?
+- Are DeFi and token activities increasing?
+- Is network congestion impacting usability?
+- Are market movements driven by fundamentals or speculation?
 
-- Daily transaction volume (network activity)
-- Active wallet addresses (user adoption)
-- ERC-20 transfers (DeFi / token activity)
-- Gas prices (network congestion)
-- Transaction fees (cost analysis)
-- Growth and momentum metrics
-- User behavior (transactions per wallet)
+## 🧠 Strategic Insights
 
----
+- Network activity remains stable, indicating consistent demand for Ethereum block space.
+- Active wallet growth suggests gradual expansion in user adoption, supporting long-term network sustainability.
+- Transaction intensity (tx per wallet) indicates moderate concentration of activity, suggesting both retail and institutional participation.
+- Gas prices and transaction fees reflect moderate congestion, implying balanced demand and network capacity.
+- Limited correlation between network activity and ETH price suggests a mix of fundamental usage and speculative market behavior.
 
-## 🧠 Key Insights
+## 📈 Investment Implications
 
-- Transaction volume shows stable activity, indicating consistent network usage.
-- Active wallets suggest gradual growth in user adoption.
-- Gas prices and fees indicate moderate congestion levels.
-- Network activity shows limited correlation with price, indicating mixed market drivers.
+- Stable network activity supports long-term value of Ethereum as a utility platform.
+- Increasing adoption signals potential growth in decentralized applications.
+- Rising fees could indicate scaling challenges and impact user experience.
+- Divergence between price and usage may signal speculative market phases.
 
----
+## 🌍 Macro & Market Context
 
-## 🛠️ Tech Stack
+This analysis can be extended by integrating macroeconomic indicators such as interest rates, inflation, and equity market performance.
 
-- Dune Analytics (SQL)
-- Blockchain Data (Ethereum)
-- Data Visualization (Dune Dashboard)
+Digital assets often respond to liquidity conditions, and understanding the relationship between on-chain activity and macro variables can provide deeper investment insights.
 
----
+## ⚙️ Methodology
 
-## 📂 Project Structure
+- Extracted on-chain data using Dune SQL
+- Aggregated metrics at daily and weekly levels
+- Applied rolling averages to smooth volatility
+- Computed growth metrics to identify momentum
+- Compared multiple indicators to analyze network behavior
 
-- `queries/` → SQL queries
-- `dashboard/` → Dashboard screenshots
-- `README.md` → Project documentation
+## ⚠️ Limitations
 
----
+- On-chain data does not capture off-chain activity (e.g., centralized exchanges)
+- Short-term analysis may not reflect long-term trends
+- Market price data is not fully integrated with on-chain metrics
 
-## 💼 Resume Highlight
+  ## ⚠️ Limitations
 
-Built an interactive blockchain analytics dashboard using Dune SQL to analyze Ethereum network activity, user adoption, and transaction costs. Developed KPI metrics, trend analysis, and behavioral insights to generate strategic digital asset market insights.
+- On-chain data does not capture off-chain activity (e.g., centralized exchanges)
+- Short-term analysis may not reflect long-term trends
+- Market price data is not fully integrated with on-chain metrics
+
+
