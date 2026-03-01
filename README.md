@@ -1,53 +1,63 @@
-# ethereum-network-analytics-dune
 # Ethereum Network Analytics Dashboard (Dune)
 
-An interactive on-chain analytics dashboard built using **Dune SQL** to monitor **Ethereum network activity, adoption, DeFi/token transfer behavior, and network cost dynamics**. The project is designed in an institutional style (KPI + trend + comparison metrics) to support **digital asset strategy and market intelligence**.
+## 🚀 Live Dashboard
 
-## Dashboard (Live)
-- Add your public Dune dashboard link here: **## 🚀 Live Dashboard
+👉 https://dune.com/snehal51/ethereum-daily-transactions
 
-View the interactive Ethereum analytics dashboard on Dune:
+---
 
-👉 https://dune.com/snehal51/ethereum-daily-transactions**
+## 📌 Project Overview
 
-## Key Questions Answered
-- Is Ethereum network usage increasing or declining?
-- Is adoption broadening (active wallets) or concentrating?
-- Are ERC-20 transfers signaling DeFi / token activity changes?
-- Are gas prices and fees indicating congestion?
-- How do on-chain trends relate to ETH market conditions?
+This project presents an interactive blockchain analytics dashboard built using Dune SQL, analyzing Ethereum network activity, user adoption, transaction costs, and market dynamics.
 
-## Metrics Included
-### Executive KPIs (7D averages)
-- Avg daily transactions
-- Avg active wallets
-- Avg gas price (Gwei)
-- Avg transaction fee (ETH)
+The dashboard integrates multiple on-chain metrics such as transaction volume, active wallets, ERC-20 transfers, gas prices, and transaction fees to generate insights for digital asset strategy and investment analysis.
 
-### Trend & Comparison Analytics
-- Transactions with 7D moving average (trend smoothing)
-- Day-over-day transaction growth (% momentum)
-- Transactions vs active wallets (participation vs activity)
-- Gas price vs fees (network conditions)
-- ERC-20 transfers (token activity proxy)
-- Tx per wallet (behavior intensity / concentration)
+---
 
-## Tools & Tech
-- **Dune** (SQL + dashboarding)
-- Optional: Python (pandas) for additional correlation / summary stats
+## 📊 Dashboard Preview
 
-## Repository Contents
-- `/queries`: All Dune SQL queries used in the dashboard
-- `/dashboard/screenshots`: Dashboard tiles and full layout screenshots
-- `/insights`: Insight templates and example strategy notes
+### Full Dashboard
+![Dashboard](dashboard/screenshots/full_dashboard.png)
 
-## How to Reproduce
-1. Open Dune and create a new query
-2. Copy SQL from `/queries/*.sql`
-3. Run query → create visualization → save
-4. Add visualizations to a dashboard
-5. Add KPI tiles (single-value) and insight text block
-6. Publish dashboard and share the link
+---
 
-## Portfolio / Resume Line
-Built an interactive **Ethereum blockchain analytics dashboard** using **Dune SQL**, tracking network activity, adoption, token transfers, gas dynamics, and transaction fees. Developed KPI tiles, moving averages, and growth metrics to generate strategic insights for digital asset market intelligence.
+## 📊 Key Metrics
+
+- Daily transaction volume (network activity)
+- Active wallet addresses (user adoption)
+- ERC-20 transfers (DeFi / token activity)
+- Gas prices (network congestion)
+- Transaction fees (cost analysis)
+- Growth and momentum metrics
+- User behavior (transactions per wallet)
+
+---
+
+## 🧠 Key Insights
+
+- Transaction volume shows stable activity, indicating consistent network usage.
+- Active wallets suggest gradual growth in user adoption.
+- Gas prices and fees indicate moderate congestion levels.
+- Network activity shows limited correlation with price, indicating mixed market drivers.
+
+---
+
+## 🛠️ Tech Stack
+
+- Dune Analytics (SQL)
+- Blockchain Data (Ethereum)
+- Data Visualization (Dune Dashboard)
+
+---
+
+## 📂 Project Structure
+
+- `queries/` → SQL queries
+- `dashboard/` → Dashboard screenshots
+- `README.md` → Project documentation
+
+---
+
+## 💼 Resume Highlight
+
+Built an interactive blockchain analytics dashboard using Dune SQL to analyze Ethereum network activity, user adoption, and transaction costs. Developed KPI metrics, trend analysis, and behavioral insights to generate strategic digital asset market insights.
