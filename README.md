@@ -4,7 +4,11 @@
 An interactive on-chain analytics dashboard built using **Dune SQL** to monitor **Ethereum network activity, adoption, DeFi/token transfer behavior, and network cost dynamics**. The project is designed in an institutional style (KPI + trend + comparison metrics) to support **digital asset strategy and market intelligence**.
 
 ## Dashboard (Live)
-- Add your public Dune dashboard link here: **[Dune Dashboard Link](PASTE_LINK_HERE)**
+- Add your public Dune dashboard link here: **## 🚀 Live Dashboard
+
+View the interactive Ethereum analytics dashboard on Dune:
+
+👉 https://dune.com/snehal51/ethereum-daily-transactions**
 
 ## Key Questions Answered
 - Is Ethereum network usage increasing or declining?
