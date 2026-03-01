@@ -1,4 +1,4 @@
-# Ethereum Network Analytics Dashboard (Dune)
+# Digital Asset Market Intelligence Dashboard (Ethereum)
 
 ## 🚀 Live Dashboard
 
